@@ -18,6 +18,8 @@
   <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic'
     rel='stylesheet' type='text/css'>
+  <link rel="stylesheet"
+    href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
   <!-- Plugin CSS -->
   <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
@@ -44,7 +46,7 @@
             <a class="nav-link js-scroll-trigger" href="#about">About Me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#services">Resume</a>
+            <a class="nav-link js-scroll-trigger" href="#resume">Resume</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
@@ -66,7 +68,7 @@
           <hr class="divider my-4">
         </div>
         <div class="col-lg-8 align-self-baseline">
-          <p class="text-white-75 font-weight-light mb-5">Specialties: Javascript, HTML, CSS, Node.js, Firebase </p>
+          <p class="text-white font-weight-twhite mb-5">Specialties: Javascript, HTML, CSS, Node.js, Firebase </p>
           <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">About Me</a>
         </div>
       </div>
@@ -78,9 +80,10 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8 text-center">
-          <h2 class="text-white mt-0">Ivana Langerova</h2>
+          <img class="mb-4 rounded" id="ivana-img" src="headshot.jpg" style="widows:300px" />
+          <h2 class="text-white mt-0">Hi! I'm Ivana</h2>
           <hr class="divider light my-4">
-          <p class="text-white-50 mb-4">Besides spending time with my awesome family, I love traveling, coding, reading
+          <p class="text-white mb-4">Besides spending time with my awesome family, I love traveling, coding, reading
             and polar bears. Let's connect & talk about technology!</p>
           <a class="btn btn-light btn-xl js-scroll-trigger" href="#contact">Contact Me!</a>
         </div>
@@ -88,8 +91,115 @@
     </div>
   </section>
 
+
+
+  <!-- Portfolio Section -->
+
+  <section id="portfolio">
+    <div class="row justify-content-center">
+      <div class="container-fluid p-0">
+        <!-- <div class="row justify-content-center"> -->
+        <br>
+        <br>
+        <br>
+
+        <!-- Portfolio Section Heading -->
+
+        <h2 class="text-center mb-4">Portfolio</h2>
+        <hr class="divider my-4">
+        <br>
+        <br>
+        <div class="row no-gutters">
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="https://mysterious-bastion-94447.herokuapp.com/" data-poptrox="ignore"
+              target="_blank">
+              <img class="img-fluid" src="img/dogood.png" alt="" />
+              <div class="portfolio-box-caption">
+
+                <div class="project-name">
+                  Project 3<br>Full Stack MERN App<br>Do Good is a community-based service that allows neighbors to
+                  give and receive goods and services without any cost or money exchange.
+
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="https://gryffindor-project-2.herokuapp.com/" data-poptrox="ignore"
+              target="_blank">
+              <img class="img-fluid" src="img/foodception.png" alt="">
+              <div class="portfolio-box-caption">
+
+                <div class="project-name">
+                  Project 2<br>Full stack application.<br>Helps users to decide whether to stay in<br> or go out for their next
+                  meal.<br>The app offers either list of recipes to cook<br>or restaurants to go.
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="https://acl447.github.io/Project1-Team-Targaryen/" data-poptrox="ignore"
+              target="_blank">
+              <img class="img-fluid" src="img/project(1).png" alt="">
+              <div class="portfolio-box-caption">
+
+                <div class="project-name">
+                  Project 1<br>Front-end travel application<br>promtps users to pick their next destination.<br>It dynamically renders traveling info including images, hotels and actual weather, aswell as comments section.<br>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="https://infinite-taiga-43472.herokuapp.com//">
+              <img class="img-fluid" src="img/clickygame.jpg" alt="">
+              <div class="portfolio-box-caption">
+
+                <div class="project-name">
+                  Clicky Game!<br>Frontend React Application
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="https://serene-thicket-42231.herokuapp.com/">
+              <img class="img-fluid" src="img/friends_1.jpg" alt="">
+              <div class="portfolio-box-caption">
+
+                <div class="project-name">
+                  Friend Finder<br> This full stack app is basically a dating site<br>that allows the user to get a best match through submitting a survey.
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="https://sijanek.github.io/Bamazon/">
+              <img class="img-fluid" src="img/bamazon.png" alt="">
+              <div class="portfolio-box-caption p-3">
+
+                <div class="project-name">
+                  Bamazon<br>MySQL & Node.js storefront CLI app
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+  </section>
+  <br>
+  <br>
+  <br>
+
+
+  <!-- Call to Action Section -->
+  <section class="page-section bg-dark text-white" id="resume">
+    <div class="container text-center">
+      <h2 class="mb-4">Resume & Technical skills</h2>
+      <a class="btn btn-primary btn-xl" data-toggle="modal" data-target="#resumeModal">Click here!</a>
+    </div>
+  </section>
+
   <!-- Services Section -->
-  <section class="page-section" id="services">
+  <!-- <section class="page-section bg-light" id="services">
     <div class="container">
       <h2 class="text-center mt-0">Resume</h2>
       <hr class="divider my-4">
@@ -97,14 +207,14 @@
         <div class="col-lg-3 col-md-6 text-center">
           <div class="mt-5">
             <!--i class="fas fa-4x fa-gem text-primary mb-4"></i-->
-            <h3 class="h4 mb-2">Experience</h3>
+  <!-- <h3 class="h4 mb-2">Experience</h3>
             <p class="text-muted mb-0">Lorem Ipsum</p>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
-            <!--i class="fas fa-4x fa-laptop-code text-primary mb-4"></i-->
-            <h3 class="h4 mb-2">Education</h3>
+          <div class="mt-5"> -->
+  <!--i class="fas fa-4x fa-laptop-code text-primary mb-4"></i-->
+  <!-- <h3 class="h4 mb-2">Education</h3>
             <p class="text-muted mb-0">University of Arizona Coding Bootcamp, <br> 2019 <br> Barnett College, London,
               UK, Cambridge Certificate in English <br>
               1992 - 1993 <br> Technical University Ostrava, Czech Republic <br> 1983 - 1984 & 1989 - 1991
@@ -112,111 +222,23 @@
           </div>
         </div>
         <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
-            <!--i class="fas fa-4x fa-globe text-primary mb-4"></i-->
-            <h3 class="h4 mb-2">Skills</h3>
-            <p class="text-muted mb-0">Javascript <br> HTML <br> CSS<br> Node.js <br> Firebase</p>
+          <div class="mt-5"> -->
+  <!--i class="fas fa-4x fa-globe text-primary mb-4"></i-->
+  <!-- <h3 class="h4 mb-2">Skills</h3>
+            <p class="text-muted mb-0">Javascript <br> HTML <br> CSS <br> Node.js <br> Firebase</p>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 text-center">
           <div class="mt-5">
             <!--i class="fas fa-4x fa-heart text-primary mb-4"></i-->
-            <h3 class="h4 mb-2">Languages</h3>
+  <!-- <h3 class="h4 mb-2">Languages</h3>
             <p class="text-muted mb-0">Czech <br> English <br> French</p>
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
-    <br>
-    <br>
-    <br>
 
-    <div class="text-center mt-0">
-      <div class="social-icons">
-        <a href="https://www.linkedin.com/in/ivana-langerova-40313517a/" target="_blank">
-          <i class="fab fa-linkedin-in"></i>
-        </a>
-        <a href="https://github.com/sijanek" target="_blank">
-          <i class="fab fa-github"></i>
-        </a>
-
-      </div>
-  </section>
-
-  <!-- Portfolio Section -->
-  <section id="portfolio">
-    <div class="container-fluid p-0">
-      <div class="row no-gutters">
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="https://gryffindor-project-2.herokuapp.com/" data-poptrox="ignore" target="_blank">
-            <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt=""/>
-            <div class="portfolio-box-caption">
-
-              <div class="project-name">
-                  Project 2
-              </div>
-            </div>
-            </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
-            <div class="portfolio-box-caption">
-
-              <div class="project-name">
-                Crystal Collector
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
-            <div class="portfolio-box-caption">
-
-              <div class="project-name">
-                Trivia Game
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
-            <div class="portfolio-box-caption">
-
-              <div class="project-name">
-                Giftastic!
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
-            <div class="portfolio-box-caption">
-
-              <div class="project-name">
-                Train Scheduler
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
-            <div class="portfolio-box-caption p-3">
-
-              <div class="project-name">
-                Project 1
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
 
 
   <!-- Contact Section -->
@@ -224,7 +246,7 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8 text-center">
-          <h2 class="mt-0">Let's Get In Touch!</h2>
+          <h2 class="mb-4">Let's Get In Touch!</h2>
           <hr class="divider my-4">
           <p class="text-muted mb-5">Ready to discuss your new project? Call or send me an email and I will get back to
             you as soon as possible!</p>
@@ -243,24 +265,125 @@
       </div>
     </div>
   </section>
+  <div class="text-center mt-0">
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/ivana-langerova-40313517a/" target="_blank">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+      <a href="https://github.com/sijanek" target="_blank">
+        <i class="fab fa-github"></i>
+      </a>
 
-  <!-- Footer -->
-  <footer class="bg-light py-5">
-    <div class="container">
-      <div class="small text-center text-muted">Copyright &copy; 2019</div>
     </div>
-  </footer>
+    </section>
+    <br>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Footer -->
+    <footer class="bg-dark py-5">
+      <div class="container">
+        <div class="small text-center text-muted">Ivana Langerova &copy; 2019</div>
+      </div>
+    </footer>
 
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-  <!--<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>-->
+    <!-- Resume Modal  -->
+    <div class="resume-modal modal fade" id="resumeModal" tabindex="-1" role="dialog" aria-labelledby="ResumeModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          </button>
+          <div class="modal-body text-center text-secondary">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <!-- Resume Modal - Title -->
 
-  <!-- Custom scripts for this template -->
-  <script src="js/creative.min.js"></script>
+                  <h2 class="resume-modal-title text-secondary text-center mb-0">About Me</h2>
+                  <br>
+
+
+
+                  <!-- Icon Divider -->
+                  <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon">
+                    </div>
+                    <div class="divider-custom-line"></div>
+                  </div>
+
+                  <!-- Resume Modal - Text -->
+                  <p class="modal-body">Full Stack Web Developer with ignited passion to learn, to create, and to improve.
+                    I am a graduate of the University of Arizona Full-Stack Web Development coding bootcamp program with
+                    continuous focus to advance my skills. I translate my passion for languages, learning and crossing
+                    the barriers into the creative force of web development’s vast possibilities to deliver
+                    human-focused, user-friendly web solutions to wherever the need may be. <br>
+
+                    In my previous work experience as Customer Service & Production Control and System Trainer, I
+                    utilized my skills to adapt quickly and to work and learn at a fast pace. I collaborated and
+                    communicated well with others. As a substitute teacher/Special Need Student Assistant I applied
+                    creativity, problem solving and critical thinking skills, whether in class management or decision
+                    making.
+
+                  </p>
+                  <!-- Section -->
+                  <section>
+                    <!-- <div class="inner">
+                      <header>
+                        <h1>About Me</h1>
+                      </header>
+                      <p>Ivana Langer</p>
+                      <h2 style="text-align: center;">Downloand my resume to learn more:
+                        <a style="margin: 5px;" href="images/.pdf" target="_blank"
+                          class="icon fa-2x fa-file-pdf-o"><span class="label">pdf</span></a>
+                      </h2> -->
+                    <h2>Resume and Technical Skills</h2>
+
+                    <!-- <ul class="icons">
+                        <li>
+                          <p class="centered">JavaScript</p>
+                          <img src="images/icons/javascript.png" alt=""> 
+                        </li>
+                        <li>
+                          <p class="centered">HTML</p>
+                           <img src="images/icons/html.png" alt=""> 
+                        </li>
+                        <li>
+                          <p class="centered">CSS</p>
+                          <img src="images/icons/css3.png" alt="">
+                        </li>
+                        <li>
+                          <p class="centered">jQuery</p>
+                          <img src="images/icons/jquery.png" alt="">
+                        </li> -->
+
+                        
+                    <p> HTML <i class='fab fa-html5' style='font-size:24px'></i>   CSS3 <i class='fab fa-css3' style='font-size:24px'></i>   JavaScript <i class='fab fa-js' style='font-size:24px'></i>   Node.js <i class='fab fa-node-js' style='font-size:24px'></i>   React.js <i class='fab fa-react' style='font-size:24px'></i>  MySQL  <i class="devicon-mysql-plain"></i>  MongoDB  <i class="devicon-mongodb-plain"></i>  jQuery <i class="devicon-jquery-plain-wordmark"></i>  Express  <i class="devicon-express-original"></i>  Heroku  <i class="devicon-heroku-original"></i></p>
+                    </section>
+                  <!-- Buttons -->
+
+                  <a href="img/Ivana Langerova resume.pdf" class="btn btn-secondary"><i class="fas fa-file-pdf " aria-hidden="true"></i></a>
+                  <button class="btn btn-primary btn-right" href="" data-dismiss="modal"><i
+                      class="fas fa-times fa-fw"></i>
+                  </button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <!--<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>-->
+
+    <!-- Custom scripts for this template -->
+    <script src="js/creative.min.js"></script>
 
 </body>
 
